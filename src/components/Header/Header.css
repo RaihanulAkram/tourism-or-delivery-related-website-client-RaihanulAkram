@@ -1,0 +1,10 @@
+.link{
+    text-decoration: none;
+    color:#fff;
+    padding-right: 1rem;
+}
+.link:hover{
+    text-decoration: none;
+    color: yellow;
+    padding-right: 1rem;
+}
