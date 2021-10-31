@@ -1,0 +1,10 @@
+
+.reg{
+    text-decoration: none;
+    color: darkgreen;
+}
+.reg:hover{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
