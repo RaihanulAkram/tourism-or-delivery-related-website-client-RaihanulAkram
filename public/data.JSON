@@ -1,13 +1,11 @@
 [
     {
         "id": 1,
-        "title": "Boxing Training",
-        "instructor": "Gary Willson",
-        "age": 27,
-        "img": "./images/serv1.jpg",
-        "description": "Boxing is a combat sport in which two people, usually wearing protective gloves.",
-        "country": "Norway",
-        "price": 250
+        "title": "Explore St. Lusia",
+        "img": "https://i.ibb.co/qJtpVSX/scene1.jpg",
+        "description": "St Lusia is a very exciting place to travel. Explore St. Lusia With a minimum cost.",
+        "country": "West Indies",
+        "price": 500
     },
     {
         "id": 2,
