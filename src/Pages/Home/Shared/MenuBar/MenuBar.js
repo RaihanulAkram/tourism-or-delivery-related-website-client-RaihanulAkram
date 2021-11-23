@@ -22,7 +22,7 @@ const MenuBar = () => {
 
                             <NavLink className="link text-white px-2 text-center" to="/home">Home</NavLink>
 
-                            <NavLink className="link text-white px-2 text-center" to="/explore">Tours</NavLink>
+                            <NavLink className="link text-white px-2 text-center" to="/tours">Tours</NavLink>
 
                             <NavLink className="link text-white px-2 text-center" to="/addTours">Add Tours</NavLink>
 
