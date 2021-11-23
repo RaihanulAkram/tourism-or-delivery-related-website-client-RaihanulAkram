@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Home from './Pages/Home/Home/Home';
 import AddTours from './Pages/AddTours/AddTours';
+import MainTours from './Pages/MainTours/MainTours';
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
 
           <Route path="/home">
             <Home></Home>
+          </Route>
+
+          <Route exact path="/tours">
+            <MainTours></MainTours>
           </Route>
 
           <Route exact path="/addTours">
