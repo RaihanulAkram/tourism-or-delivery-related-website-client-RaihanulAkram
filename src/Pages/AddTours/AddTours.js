@@ -22,7 +22,7 @@ const AddTours = () => {
             <Container>
                 <Row className="my-5">
 
-                    <h2 className="text-danger text-center">Add A Tour</h2>
+                    <h2 className="text-dark text-center">Add A Tour</h2>
                     <Col xs={12} md={8} className="my-3 mx-auto">
 
                         <form className="order-form" onSubmit={handleSubmit(onSubmit)}>
@@ -36,7 +36,7 @@ const AddTours = () => {
 
                             <input placeholder='Price' type="number" {...register("price")} /><br />
 
-                            <input className='btn btn-danger border-0' type="submit" />
+                            <input className='btn btn-dark border-0' type="submit" />
                         </form>
                     </Col>
                 </Row>

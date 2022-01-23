@@ -1,4 +1,4 @@
-# PowerGym
+# TravelX
 
 Clint Side Code Link:  
 
@@ -6,23 +6,23 @@ Server Side Code Link:
 
 Live Site Link:  
 
-## Kickstart a successful  career as a Specialist Exercise Trainer with a Diploma of Fitness
+## Kickstart a successful  career as a Specialist Travel Guide
 
 Get Better Technical Skills. Our state-of-the-art online training portal has been designed to aid fast, enjoyable learning. Study in your own time, at your own pace. 
 
 ### Our vision
 
-Our vission is to make people healthy by leading a healthy lifestyle.
+Our vission is to make people happy.
 .
 
 ### About us
 
-Welcome to PowerGym, the world's largest professional network with 774+ million members in more than 200 countries and territories worldwide.
+Welcome to TravelX, the world's largest professional network with 774+ million members in more than 200 countries and territories worldwide.
 
 
 ### Our Mission
 
-Our Mission is to make people fit and strong with the help of power training.
+Our Mission is to make people happy.
 
 
 ### Our core value
@@ -33,9 +33,9 @@ Core values are a set of basic practices that inform how you conduct your life.
 
 ** Our History
 
-PowerGym began was officially launched on May 5, 2003 in New York.
+Welcome to TravelX, the world's largest professional travel agency based in Los Angeles. We provide our awesome services in more than 200 countries and territories worldwide.
 
-Today, PowerGym leads a diversified business with revenues from membership subscriptions, advertising sales and recruitment solutions under the leadership of Ryan Roslansky.
+Today, TravelX leads a diversified business with revenues from membership subscriptions, advertising sales and recruitment solutions under the leadership of John Hawkins.
 
 
 ## Our Services

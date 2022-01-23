@@ -14,8 +14,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h1>Elegant Home</h1>
-                    <p>Home gives us security</p>
+                    <h1>Beautiful destination</h1>
+                    <p>Feal the nature.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -26,8 +26,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h1>Beautiful Home</h1>
-                    <p>Beauty makes us happy</p>
+                    <h1>Exciting deals</h1>
+                    <p>Tour with minimum cost.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

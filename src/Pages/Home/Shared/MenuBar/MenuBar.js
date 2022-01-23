@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-// import useAuth from '../../../hooks/useAuth';
+import useAuth from '../../../../hooks/useAuth';
 
 const MenuBar = () => {
 
-    // const { user, logout } = useAuth();
+    const { user, logout } = useAuth();
 
     return (
         <div>
@@ -24,19 +24,24 @@ const MenuBar = () => {
 
                             <NavLink className="link text-white px-2 text-center" to="/tours">Tours</NavLink>
 
-                            <NavLink className="link text-white px-2 text-center" to="/addTours">Add Tours</NavLink>
+                            {user?.email && <NavLink className="link text-white px-2 text-center" to="/addTours">Add Tours</NavLink>}
 
-                            <NavLink className="link text-white px-2 text-center" to="/myorders">My Orders</NavLink>
+                            {user?.email && <NavLink className="link text-white px-2 text-center" to="/myorders">My Orders</NavLink>}
 
-                            <NavLink className="link text-white px-2 text-center" to="/login">Login</NavLink>
+                            {user?.email && <NavLink className="link text-white px-2 text-center" to="/manageallorders">Manage All Orders</NavLink>}
 
-                            <NavLink className="link text-white px-2 text-center" to="/register">Register</NavLink>
+                            {!user?.email &&
+                                <NavLink className="link text-white px-2 text-center" to="/login">Login</NavLink>
+                            }
 
-                            {/* {
+                            {!user?.email && <NavLink className="link text-white px-2 text-center" to="/register">Register</NavLink>}
+                            {
                                 <span className="text-white px-2 fw-bold text-center">{user.displayName}</span>
-                            } */}
-
-                            {/* <NavLink className="link text-white px-2 text-center" to="/login">Logout</NavLink> */}
+                            }
+                            {
+                                user?.email &&
+                                <NavLink onClick={logout} className="link text-white px-2 text-center" to="/login">Logout</NavLink>
+                            }
 
                         </Nav>
                     </Navbar.Collapse>
