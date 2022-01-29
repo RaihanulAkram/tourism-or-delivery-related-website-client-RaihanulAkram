@@ -1,10 +1,10 @@
 # TravelX
 
-Clint Side Code Link:  
+Clint Side Code Link:  https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-RaihanulAkram
 
-Server Side Code Link: 
+Server Side Code Link:  https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-RaihanulAkram
 
-Live Site Link:  
+Live Site Link:  https://travelbdesh.web.app/
 
 ## Kickstart a successful  career as a Specialist Travel Guide
 
