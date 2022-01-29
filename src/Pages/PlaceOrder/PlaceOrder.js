@@ -19,7 +19,7 @@ const PlaceOrder = () => {
     const onSubmit = (data) => {
         data.email = user?.email;
         data.status = "pending";
-        fetch("http://localhost:5050/addOrders", {
+        fetch("https://arcane-river-07706.herokuapp.com/addOrders", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
@@ -33,7 +33,7 @@ const PlaceOrder = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5050/singleTours/${id}`)
+        fetch(`https://arcane-river-07706.herokuapp.com/singleTours/${id}`)
             .then((res) => res.json())
             .then((data) => setTours(data));
     }, [id]);

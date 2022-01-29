@@ -9,13 +9,13 @@ const MyOrder = () => {
   const [orders, setOrders] = useState([]);
   console.log(orders);
   useEffect(() => {
-    fetch(`http://localhost:5050/myOrders/${user?.email}`)
+    fetch(`https://arcane-river-07706.herokuapp.com/myOrders/${user?.email}`)
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [user?.email]);
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:5050/deleteOrder/${id}`, {
+    fetch(`https://arcane-river-07706.herokuapp.com/deleteOrder/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

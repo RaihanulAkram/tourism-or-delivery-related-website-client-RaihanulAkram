@@ -11,7 +11,7 @@ const ManageAllOrders = () => {
 
   console.log(status);
   useEffect(() => {
-    fetch("http://localhost:5050/allOrders")
+    fetch("https://arcane-river-07706.herokuapp.com/allOrders")
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, []);
@@ -24,7 +24,7 @@ const ManageAllOrders = () => {
 
   const onSubmit = (data) => {
     console.log(data, orderId);
-    fetch(`http://localhost:5050/statusUpdate/${orderId}`, {
+    fetch(`https://arcane-river-07706.herokuapp.com/statusUpdate/${orderId}`, {
       method: "PUT",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
@@ -34,7 +34,7 @@ const ManageAllOrders = () => {
   };
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:5050/deleteOrder/${id}`, {
+    fetch(`https://arcane-river-07706.herokuapp.com/deleteOrder/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

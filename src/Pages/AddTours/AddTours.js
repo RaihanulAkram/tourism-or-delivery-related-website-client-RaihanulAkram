@@ -8,7 +8,7 @@ const AddTours = () => {
 
     const onSubmit = data => {
         console.log(data)
-        fetch('http://localhost:5050/addTours', {
+        fetch('https://arcane-river-07706.herokuapp.com/addTours', {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),

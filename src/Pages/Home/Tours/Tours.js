@@ -7,7 +7,7 @@ const Tours = () => {
     const [isLoading, setIsLoading] = useState(true)
     const slicedTours = tours.slice(0, 6);
     useEffect(() => {
-        fetch('http://localhost:5050/allTours')
+        fetch('https://arcane-river-07706.herokuapp.com/allTours')
             .then(res => res.json())
             .then(data => {
                 setTours(data)

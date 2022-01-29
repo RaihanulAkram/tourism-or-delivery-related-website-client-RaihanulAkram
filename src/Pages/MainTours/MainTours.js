@@ -5,7 +5,7 @@ import MainTour from '../MainTour/MainTour';
 const MainTours = () => {
     const [tours, setTours] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5050/allTours')
+        fetch('https://arcane-river-07706.herokuapp.com/allTours')
             .then(res => res.json())
             .then(data => setTours(data))
     }, [])
