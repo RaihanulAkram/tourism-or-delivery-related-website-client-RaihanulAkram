@@ -1,8 +1,12 @@
 # TravelX
 
-Clint Side Code Link:  https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-RaihanulAkram
+client side code link (Public): https://github.com/RaihanulAkram/tourism-or-delivery-related-website-client-RaihanulAkram
 
-Server Side Code Link:  https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-RaihanulAkram
+client side code link (Public): https://github.com/RaihanulAkram/tourism-or-delivery-related-website-server-RaihanulAkram
+
+Clint Side Code Link (PRIVATE):  https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-RaihanulAkram
+
+Server Side Code Link (PRIVATE):  https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-RaihanulAkram
 
 Live Site Link:  https://travelbdesh.web.app/
 
